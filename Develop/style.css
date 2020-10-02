@@ -6,10 +6,10 @@ body {
 
 textarea{
   background: transparent;
-  border: none;
+  border: solid;
   resize: none;
   color: #000000;
-  border-left: 1px solid black;
+  border-left: solid black;
   padding: 10px;
 }
 
@@ -55,17 +55,4 @@ textarea{
 .future {
   background-color: #77dd77;
   color: white;
-}
-
-.saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06AED5;
-  color: white;
-}
-
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all .3s ease-in-out;
 }
